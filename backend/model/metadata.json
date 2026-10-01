@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "model_version": "ames-linear-500eea48",
+  "currency": "USD",
+  "fields": [
+    {
+      "name": "neighborhood",
+      "label": "Neighborhood",
+      "type": "category",
+      "group": "location",
+      "options": [
+        {
+          "value": "Bloomington_Heights",
+          "label": "Bloomington Heights"
+        },
+        {
+          "value": "Blueste",
+          "label": "Bluestem"
+        },
+        {
+          "value": "Briardale",
+          "label": "Briardale"
+        },
+        {
+          "value": "Brookside",
+          "label": "Brookside"
+        },
+        {
+          "value": "Clear_Creek",
+          "label": "Clear Creek"
+        },
+        {
+          "value": "College_Creek",
+          "label": "College Creek"
+        },
+        {
+          "value": "Crawford",
+          "label": "Crawford"
+        },
+        {
+          "value": "Edwards",
+          "label": "Edwards"
+        },
+        {
+          "value": "Gilbert",
+          "label": "Gilbert"
+        },
+        {
+          "value": "Green_Hills",
+          "label": "Green Hills"
+        },
+        {
+          "value": "Greens",
+          "label": "The Greens"
+        },
+        {
+          "value": "Iowa_DOT_and_Rail_Road",
+          "label": "Downtown / Rail District"
+        },
+        {
+          "value": "Landmark",
+          "label": "Landmark / Grand Avenue"
+        },
+        {
+          "value": "Meadow_Village",
+          "label": "Meadow Village"
+        },
+        {
+          "value": "Mitchell",
+          "label": "Mitchell"
+        },
+        {
+          "value": "North_Ames",
+          "label": "North Ames"
+        },
+        {
+          "value": "Northpark_Villa",
+          "label": "Northpark Villas"
+        },
+        {
+          "value": "Northridge",
+          "label": "Northridge"
+        },
+        {
+          "value": "Northridge_Heights",
+          "label": "Northridge Heights"
+        },
+        {
+          "value": "Northwest_Ames",
+          "label": "Northwest Ames"
+        },
+        {
+          "value": "Old_Town",
+          "label": "Old Town"
+        },
+        {
+          "value": "Sawyer",
+          "label": "Sawyer"
+        },
+        {
+          "value": "Sawyer_West",
+          "label": "Sawyer West"
+        },
+        {
+          "value": "Somerset",
+          "label": "Somerset"
+        },
+        {
+          "value": "South_and_West_of_Iowa_State_University",
+          "label": "Campustown / South ISU"
+        },
+        {
+          "value": "Stone_Brook",
+          "label": "Stone Brook"
+        },
+        {
+          "value": "Timberland",
+          "label": "Timberland Heights"
+        },
+        {
+          "value": "Veenker",
+          "label": "Veenker / Golf Course"
+        }
+      ],
+      "default": "North_Ames"
+    },
+    {
+      "name": "area",
+      "label": "Living area",
+      "type": "number",
+      "min": 300,
+      "max": 6000,
+      "step": 1,
+      "unit": "sq ft",
+      "group": "space",
+      "default": 1436
+    },
+    {
+      "name": "lot_area",
+      "label": "Lot area",
+      "type": "number",
+      "min": 1000,
+      "max": 220000,
+      "step": 1,
+      "unit": "sq ft",
+      "group": "space",
+      "default": 9356
+    },
+    {
+      "name": "bedrooms",
+      "label": "Bedrooms",
+      "type": "number",
+      "min": 0,
+      "max": 8,
+      "step": 1,
+      "group": "space",
+      "default": 3
+    },
+    {
+      "name": "full_baths",
+      "label": "Full bathrooms",
+      "type": "number",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "group": "space",
+      "default": 2
+    },
+    {
+      "name": "half_baths",
+      "label": "Half bathrooms",
+      "type": "number",
+      "min": 0,
+      "max": 2,
+      "step": 1,
+      "group": "space",
+      "default": 0
+    },
+    {
+      "name": "property_age",
+      "label": "Property age",
+      "type": "number",
+      "min": 0,
+      "max": 140,
+      "step": 1,
+      "unit": "years",
+      "group": "property",
+      "default": 36
+    },
+    {
+      "name": "house_style",
+      "label": "House style",
+      "type": "category",
+      "group": "property",
+      "options": [
+        {
+          "value": "One_Story",
+          "label": "Single story"
+        },
+        {
+          "value": "One_and_Half_Fin",
+          "label": "1\u00bd stories \u00b7 finished"
+        },
+        {
+          "value": "One_and_Half_Unf",
+          "label": "1\u00bd stories \u00b7 unfinished"
+        },
+        {
+          "value": "SFoyer",
+          "label": "Split foyer"
+        },
+        {
+          "value": "SLvl",
+          "label": "Split level"
+        },
+        {
+          "value": "Two_Story",
+          "label": "Two story"
+        },
+        {
+          "value": "Two_and_Half_Fin",
+          "label": "2\u00bd stories \u00b7 finished"
+        },
+        {
+          "value": "Two_and_Half_Unf",
+          "label": "2\u00bd stories \u00b7 unfinished"
+        }
+      ],
+      "default": "One_Story"
+    },
+    {
+      "name": "garage_cars",
+      "label": "Garage capacity",
+      "type": "number",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "cars",
+      "group": "property",
+      "default": 2
+    },
+    {
+      "name": "central_air",
+      "label": "Central air",
+      "type": "category",
+      "group": "property",
+      "options": [
+        {
+          "value": "N",
+          "label": "No"
+        },
+        {
+          "value": "Y",
+          "label": "Yes"
+        }
+      ],
+      "default": "Y"
+    }
+  ],
+  "disclaimer": "Historical Ames, Iowa sales (2006\u20132010), in USD. An estimated model prediction, not a current market valuation or professional appraisal.",
+  "market": "Ames, Iowa",
+  "years": [
+    2006,
+    2010
+  ],
+  "training_median_price": 160000.0,
+  "training_price_min": 12789.0,
+  "training_price_max": 755000.0,
+  "artifact_sha256": "271ec9f47496186aec55531c34b2199521af2af7c3c5bb659ec88c74cd2aea71"
+}
